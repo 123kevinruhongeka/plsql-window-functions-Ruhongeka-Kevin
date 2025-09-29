@@ -61,7 +61,6 @@ ORDER BY sales_month;
 --Interpretation: Provides month-over-month growth analysis by comparing current sales with previous and next months, enabling trend identification.
 
 --Distribution Functions
-sql
 -- NTILE(4), CUME_DIST() for customer segmentation
 WITH customer_stats AS (
     SELECT 
